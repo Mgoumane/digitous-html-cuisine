@@ -2,6 +2,10 @@
 header{
     background:linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),url(../img/header.jpg) no-repeat center / cover;
     color: white;
+    height: 500px;
+}
+.acceuil{
+    padding: 50px 0 70px 0;
 }
 section{
     padding-top: 20px;
@@ -20,14 +24,9 @@ a{
 a.size img{
     height: 100px;
 }
-.acceuil{
-    padding: 50px 0 70px 0;
-}
+
 .aeration .row{
     margin: 20px 0;
-}
-.img-fluid{
-    
 }
 button{
     color: white;
