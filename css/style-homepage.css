@@ -1,6 +1,13 @@
-header, section{
-    border:solid  red;
+ section{
+    *border:solid  red;
 }
-.size img{
+header{
+    *border:solid  green;
+    background: url(../img/header.jpg) no-repeat center / cover;
+}
+a.size img{
     height: 100px;
+}
+.acceuil{
+    padding: 30px 0 50px 0;
 }
