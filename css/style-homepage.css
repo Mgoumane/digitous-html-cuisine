@@ -1,9 +1,21 @@
- section{
-    *border:solid  red;
-}
+ 
 header{
-    *border:solid  green;
-    background: url(../img/header.jpg) no-repeat center / cover;
+    background:linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)),url(../img/header.jpg) no-repeat center / cover;
+    color: white;
+}
+section{
+    padding-top: 20px;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 3%;
+}
+a{
+    color: white;
+}
+.text-white{
+    color: white;
 }
 a.size img{
     height: 100px;
@@ -11,6 +23,18 @@ a.size img{
 .acceuil{
     padding: 50px 0 70px 0;
 }
+.aeration .row{
+    margin: 20px 0;
+}
+.img-fluid{
+    margin: 20px;
+}
+
+ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+    }
 
 @media (max-width: 1150px) { 
     #none{
