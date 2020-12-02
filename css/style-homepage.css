@@ -9,5 +9,14 @@ a.size img{
     height: 100px;
 }
 .acceuil{
-    padding: 30px 0 50px 0;
+    padding: 50px 0 70px 0;
+}
+
+@media (max-width: 1150px) { 
+    #none{
+        display: none;
+    }
+    #none1{
+        display: none;
+    }
 }
