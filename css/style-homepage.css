@@ -27,9 +27,11 @@ a.size img{
     margin: 20px 0;
 }
 .img-fluid{
-    margin: 20px;
+    
 }
-
+button{
+    color: white;
+}
 ul {
     list-style:none;
     margin-left:0;

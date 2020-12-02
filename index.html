@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style-homepage.css">
+  <link rel="stylesheet" href="css/all.css">
   <title>Cui'zine</title>
 </head>
 
 <body>
   <!--  DEBUT HEADER -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light bg-transparent ">
       <a class="navbar-brand text-white " href="#">Cui'zine</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,17 +45,17 @@
 
         <div class="container">
           <dic class="row">
-            <div class="col-md-9">
+            <div class="col-12 col-lg-9 ">
               <!-- LES 3 ARTICLES -->
               <div class="container aeration">
                 <div class="row">
-                  <div class="col-md-2 size">
+                  <div class="col-md-3 size">
                     <img src="img/articles/suzette/suzette-small.jpg" class="img-fluid" alt="suzette">
                   </div>
-                  <div class=" col-md-10 ">
-                    <p>Chez Suzette, la nouvelle crêperie qui fait parler d'elle
+                  <div class=" col-md-9 ">
+                   <h3> Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
 
-                      La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à
+                      <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à
                       Paris
                       dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées au
                       froment ou
@@ -62,13 +63,13 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-2 size">
+                  <div class="col-md-3 size">
                     <img src="img/articles/metro/metro-small.jpg " class="img-fluid" alt="img-metro">
                   </div>
-                  <div class=" col-md-10 ">
-                    <p>Le Métro dessert
+                  <div class=" col-md-9 ">
+                   <h3>Le Métro dessert</h3> 
 
-                      Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de
+                      <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de
                       réunir
                       leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais
                       qu'en
@@ -76,13 +77,13 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-2 size">
+                  <div class="col-md-3 size">
                     <img src="img/articles/vitaly/vitaly-small.jpg" class="img-fluid" alt="vitaly">
                   </div>
-                  <div class=" col-md-10 ">
-                    <p>Vitaly, le végan italien
+                  <div class=" col-md-9 ">
+                    <h3> Vitaly, le végan italien</h3>
 
-                      Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de
+                     <p> Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de
                       l'Italie à
                       portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.</p>
                   </div>
@@ -97,13 +98,26 @@
                   <label for="exampleInputEmail1">Recherche </label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                     placeholder="Recherche...">
+                    <button type="submit" class="btn btn-outline-dark btn-lg btn-block">Ok</button>
                 </div>
-                <button type="submit" class="btn btn-primary">Ok</button>
+                
                 <div class="form-group">
                   <label for="exampleInputPassword1">Newlaster</label>
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email...">
+                  <button type="submit" class="btn btn-outline-dark btn-lg btn-block">S'inscrire</button>
                 </div>
-                <button type="submit" class="btn btn-primary">S'inscrire</button>
+                <div>
+                  <p>Partager</p>
+                  <div class="container ">
+                    <div class="row">
+                      <div class="col-2"><i class="fab fa-facebook-square"></i></div>
+                      <div class="col-2"><i class="fab fa-twitter"></i></div>
+                      <div class="col-2"><i class="fab fa-instagram"></i></div>
+                      <div class="col-2"><i class="fab fa-youtube"></i></div>
+                      <div class="col-2"></div>
+                    </div>
+                  </div>
+                </div>
               </form>
               <!-- FORM TOUTES A DROITES -->
             </div>
@@ -146,7 +160,19 @@
               <label for="exampleInputPassword1">Newlaster</label>
               <div class="row">
                 <div class="col-6"><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email..."></div>
-                <div class="col-6"><button type="submit" class="btn btn-primary">S'inscrire</button></div>
+                <div class="col-6"><button type="submit" class="btn btn-outline-light">S'inscrire</button></div>
+              </div><br>
+              <div>
+                <p>Partager</p>
+                <div class="container ">
+                  <div class="row">
+                    <div class="col-2"><i class="fab fa-facebook-square"></i></div>
+                    <div class="col-2"><i class="fab fa-twitter"></i></div>
+                    <div class="col-2"><i class="fab fa-instagram"></i></div>
+                    <div class="col-2"><i class="fab fa-youtube"></i></div>
+                    <div class="col-2"></div>
+                  </div>
+                </div>
               </div>
             </div>
             
