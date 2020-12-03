@@ -12,6 +12,9 @@ header{
 }
 
 
+.img-antoine{
+    height: 200px  ;
+}
 
 @media (max-width: 1150px) { 
     #none{
@@ -26,5 +29,5 @@ header{
     section{
         padding: 20px;
     }
-   
+    
 }
