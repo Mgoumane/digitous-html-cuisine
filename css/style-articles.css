@@ -16,6 +16,10 @@ header{
     height: 200px  ;
 }
 
+.logo-size{
+    height: 100px;
+}
+
 @media (max-width: 1150px) { 
     #none{
         display: none;
